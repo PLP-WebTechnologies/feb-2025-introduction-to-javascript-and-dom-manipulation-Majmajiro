@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Learning Hub for Kids</title>
+  <link rel="stylesheet" href="style.css" />
+</head>
+<body>
+
+  <header>
+    <h1 id="main-heading">🌟 Welcome to the Learning Hub 🌟</h1>
+  </header>
+
+  <main>
+    <section>
+      <h2>Fun Fact</h2>
+      <p id="fact">Did you know? The Eiffel Tower can be 15 cm taller during the summer!</p>
+      <button onclick="changeFact()">Get New Fun Fact</button>
+    </section>
+
+    <section>
+      <h2>Theme Switch</h2>
+      <button onclick="toggleTheme()">Toggle Day/Night Mode</button>
+    </section>
+
+    <section>
+      <h2>Activities</h2>
+      <button onclick="addActivity()">Add New Activity</button>
+      <button onclick="removeActivity()">Remove Last Activity</button>
+      <ul id="activity-list">
+        <li>📚 Reading Time</li>
+        <li>🧠 Brain Teasers</li>
+      </ul>
+    </section>
+  </main>
+
+  <footer>
+    <p>&copy; 2025 Class Measures Learning Hub</p>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>

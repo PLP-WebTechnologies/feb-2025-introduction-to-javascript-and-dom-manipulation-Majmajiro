@@ -1,0 +1,108 @@
+/* General Page Styling */
+body {
+    font-family: 'Comic Sans MS', cursive, sans-serif;
+    background-color: #fff7e6;
+    color: #333;
+    margin: 0;
+    padding: 0 20px;
+    transition: background-color 0.5s ease, color 0.5s ease;
+  }
+  
+  /* Header Styling */
+  header {
+    background-color: #ffb703;
+    padding: 20px;
+    text-align: center;
+    border-bottom: 5px solid #fb8500;
+  }
+  
+  #main-heading {
+    color: #023047;
+    font-size: 2rem;
+  }
+  
+  /* Section Styling */
+  main {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 20px 0;
+  }
+  
+  section {
+    background-color: #ffe5b4;
+    border: 2px dashed #ffb703;
+    border-radius: 12px;
+    padding: 20px;
+    margin: 20px 0;
+    box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.1);
+  }
+  
+  h2 {
+    color: #8ecae6;
+    margin-bottom: 10px;
+  }
+  
+  /* Buttons */
+  button {
+    background-color: #8ecae6;
+    border: none;
+    border-radius: 8px;
+    padding: 10px 15px;
+    margin: 5px;
+    font-size: 1rem;
+    cursor: pointer;
+    transition: background-color 0.3s ease;
+  }
+  
+  button:hover {
+    background-color: #219ebc;
+    color: white;
+  }
+  
+  /* Activity List */
+  ul {
+    padding-left: 20px;
+    list-style-type: square;
+  }
+  
+  li {
+    padding: 5px 0;
+    font-size: 1.1rem;
+  }
+  
+  /* Footer */
+  footer {
+    text-align: center;
+    padding: 15px;
+    background-color: #ffb703;
+    color: #023047;
+    font-style: italic;
+    margin-top: 40px;
+  }
+  
+  /* Night Mode */
+  .night-mode {
+    background-color: #1b263b;
+    color: #f0f0f0;
+  }
+  
+  .night-mode header,
+  .night-mode footer {
+    background-color: #0d1b2a;
+    color: #f0f0f0;
+  }
+  
+  .night-mode section {
+    background-color: #415a77;
+    border-color: #778da9;
+  }
+  
+  .night-mode button {
+    background-color: #778da9;
+  }
+  
+  .night-mode button:hover {
+    background-color: #e0e1dd;
+    color: #000;
+  }
+  
